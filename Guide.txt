@@ -1,0 +1,17 @@
+//with react
+npx create-react-app reactappName
+
+
+
+//with vite + react
+
+npm create vite@latest
+npm install
+npm run dev
+
+npm i react-browser-dom
+
+
+
+//make sure to change the mode in tailwind.css file 
+mode:'class'

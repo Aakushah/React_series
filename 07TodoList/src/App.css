@@ -1,0 +1,139 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+nav{
+    background: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header{
+
+    background-color: rgba(196, 238, 255, 0.396);
+    padding:15px;
+    text-align: center;
+}
+
+
+
+.header > a{
+    text-decoration:none;
+    margin:20px;
+
+}
+.contact{
+    background-color: rgba(206, 196, 12, 0.396);
+    height: 100vh;
+    padding:50px;
+    
+}
+
+.about{
+    background-color: rgba(51, 206, 12, 0.396);
+    height: 100vh;
+    padding:50px;
+
+}
+.footer{
+    background-color: rgba(10, 17, 9, 0.396);
+    height: 20vh;
+    padding:50px;
+
+    
+}
+
+.container{
+
+    background-color: rgba(255, 228, 196, 0.396);
+    width: 70%;
+    margin:auto;
+    min-height: 100vh;
+    padding:50px;
+
+
+}
+
+
+.container > h1{
+    text-align: center;
+}
+
+.container > form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+input,
+textarea,
+button{
+    padding:10px ;
+    margin:20px 0;
+    border: 2px solid black(0,0,0,0.14);
+    border-radius: 5px;
+
+}
+button{
+    color:white;
+    background-color: black;
+    font-size: larger;
+    border:none;
+
+}
+
+
+.task{
+
+    display: flex;
+    align-items: center;
+    background: white;
+    margin:10px 0;
+    padding:12px;
+}
+
+
+.task > div{
+    width: 100%;
+    padding:10px;
+   
+}
+
+.task > div > span{
+    color:rgba(0, 0, 0, 0.237)
+    
+}
+
+.task  button{
+    background-color: red;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+
+}
+
+.task  button:hover{
+    background-color:crimson;
+
+
+}
+
+
+
+
